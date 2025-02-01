@@ -3339,7 +3339,7 @@ img.left {
   background: #141414;
   padding: 120px 30px 30px;
   overflow: hidden;
-  z-index: 9999;
+  z-index: 999;
   -webkit-transition: all 0.5s cubic-bezier(1, 0, 0.55, 1);
   -o-transition: all 0.5s cubic-bezier(1, 0, 0.55, 1);
   transition: all 0.5s cubic-bezier(1, 0, 0.55, 1);
