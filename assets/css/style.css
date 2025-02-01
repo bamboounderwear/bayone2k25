@@ -320,6 +320,8 @@ figure {
 }
 
 .main-bg {
+  z-index: 1;
+  position: relative;
   background-color: #0c0c0c;
 }
 
@@ -2877,7 +2879,7 @@ img.left {
   width: 100%;
   background: transparent;
   border-bottom: 2px solid transparent;
-  z-index: 999;
+  z-index: 9999;
 }
 
 .navbar.nav-crev {
@@ -2893,6 +2895,7 @@ img.left {
   -webkit-transform: translate(0) !important;
   -ms-transform: translate(0) !important;
   transform: translate(0) !important;
+  z-index: 9999;
 }
 
 .navbar.nav-crev.nav-scroll {
