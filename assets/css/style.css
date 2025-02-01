@@ -417,11 +417,6 @@ img {
   animation-fill-mode: both !important;
 }
 
-.animsition-overlay-slide {
-  z-index: 999999999 !important;
-  background: #1b1b1b !important;
-}
-
 /* Buttons
 -----------------------------------------------------------------*/
 .butn {
