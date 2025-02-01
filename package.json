@@ -1,0 +1,11 @@
+{
+  "name": "bayone-html-template",
+  "version": "1.0.0",
+  "description": "Bayone - Multi-Purpose HTML Template",
+  "scripts": {
+    "dev": "npx serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
