@@ -411,12 +411,6 @@ img {
   border-radius: 40px;
 }
 
-#siteWrapper {
-  opacity: 0;
-  -webkit-animation-fill-mode: both !important;
-  animation-fill-mode: both !important;
-}
-
 /* Buttons
 -----------------------------------------------------------------*/
 .butn {
