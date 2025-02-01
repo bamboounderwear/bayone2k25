@@ -974,33 +974,6 @@ $(function () {
 
 });
 
-$(function () {
-    var width = $(window).width();
-    if (width > 991) {
-
-        "use strict";
-
-        /* =============================================================================
-       -------------------------------  Smooth contact   -------------------------------
-       ============================================================================= */
-
-        gsap.set('.contact-container', { yPercent: -50 })
-        const cover = gsap.timeline({ paused: true })
-        cover
-            .to('.contact-container', { yPercent: 0, ease: 'none' })
-            ;
-
-        ScrollTrigger.create({
-            trigger: '.main-box',
-            start: 'bottom bottom',
-            end: '+=50%',
-            animation: cover,
-            scrub: true,
-        });
-
-    }
-});
-
 
 $(function () {
 
