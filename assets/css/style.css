@@ -667,31 +667,6 @@ img {
   transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
-.cursor {
-  pointer-events: none;
-  position: fixed;
-  padding: 0.3rem;
-  background-color: #fff;
-  border-radius: 50%;
-  mix-blend-mode: difference;
-  -webkit-transition: opacity 0.4s ease, -webkit-transform 0.3s ease;
-  transition: opacity 0.4s ease, -webkit-transform 0.3s ease;
-  -o-transition: transform 0.3s ease, opacity 0.4s ease;
-  transition: transform 0.3s ease, opacity 0.4s ease;
-  transition: transform 0.3s ease, opacity 0.4s ease, -webkit-transform 0.3s ease;
-  -webkit-transform: translateX(-5px) translateY(-5px);
-  -ms-transform: translateX(-5px) translateY(-5px);
-  transform: translateX(-5px) translateY(-5px);
-  z-index: 99999;
-}
-
-.cursor-active {
-  -webkit-transform: translate(-50%, -50%) scale(8);
-  -ms-transform: translate(-50%, -50%) scale(8);
-  transform: translate(-50%, -50%) scale(8);
-  opacity: .1;
-}
-
 .rolling-text {
   display: inline-block;
   overflow: hidden;
